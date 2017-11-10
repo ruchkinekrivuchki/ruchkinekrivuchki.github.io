@@ -519,7 +519,28 @@ footer p {
   .fivegrid {
     grid-column: 2 / 4;
   }
+.sixgrid {
+    grid-column: 4;
+    grid-row:  2 / 4;
+  }
+ 
+ .portfolio-item {
 
+    filter: alpha (Opacity=25);
+    opacity: 1;
+    color: #fff;
+    font-size: ;
+    transition: all 0.5s ease;
+  }
+
+.portfolio-item:hover {
+
+    filter: alpha (Opacity=100);
+    color: #746af7;
+    font-size: 50px;
+    opacity: 0.75;
+
+  }
 
 .grid{
   display: grid;
